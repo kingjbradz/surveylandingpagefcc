@@ -1,1 +1,1 @@
-Mock survey page written for assessment #3 of freecodecamp's responsive web design certification.
+Mock page written for assessment #3 of freecodecamp's responsive web design certification.
