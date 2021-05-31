@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(235, 197, 126);
+}
+
+
+#header-img {
+    height: 50px;
+    width: 125px;
+}
+
+header {
+    position: fixed;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15rem;
+}
+
+#middle {
+    padding-top: 5rem;
+}
+
+#video-div {
+    padding: 15px;
+}
+
+@media screen and (max-width: 461px) {
+    #video {
+        height: 250px;
+        width: 300px;
+    }
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 250px;
+    margin-left: 20rem;
+}
+
+.nav-link {
+    padding: 50px;
+}
+
+.form {
+    margin-top: 10px;
+}
+
+#enquiry {
+    padding: 30px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header id="header">
+            <img src="tacoly&logo.png" id="header-img"/>
+            <nav id="nav-bar">
+                <a href="#about" class="nav-link">ABOUT</a>
+                <a href="#video" class="nav-link">VIDEO</a>
+                <a href="#form" class="nav-link">ORDER</a>
+            </nav>
+        </header>
+            <div id="middle">
+                <div id ="about">
+                    <p>We are a Melbourne-based private taqueria who can provide a variety of tacos for your event or function!</p>
+                </div>
+                <div>
+                    <p>We source only the finest locally produced ingredients!</p>
+                </div>
+                <div>
+                    <p>Taste traditional flavours not seen anywhere in our city!</p>
+                </div>
+            </div>
+            <div id="video-div">
+                <iframe id="video" width="420" height="315" src="https://www.youtube.com/embed/lWME4LcaFto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div>
+                <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name" class="form"/>
+                    <label for="email">Email</label>
+                    <input name="email" type="email" id="email" placeholder="Your Email" class="form" required/>
+                    <label for="enquiry">Enquiry</label>
+                    <textarea name="enquiry" id="enquiry" placeholder="enquiry" class="form"></textarea>
+                    <input type="submit" id="submit" class="form">
+                </form>
+            </div>
+    </body>
+</html>
